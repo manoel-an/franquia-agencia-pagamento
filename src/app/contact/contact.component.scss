@@ -1,0 +1,70 @@
+.right-align {
+  text-align: right;
+}
+
+.margem-texto {
+  margin-top: 20px;
+}
+
+.fonte-legenda {
+  font-size: 10px;
+}
+
+.margem-top-video {
+  margin-top: 60px;
+}
+
+.fonte-formulario {
+  font-weight: bold;
+  color: #285da2;
+}
+
+.fonte-formulario-checkbox {
+  font-weight: bold;
+  color: #285da2;
+  font-size: 13px;
+}
+
+.fonte-erro {
+  font-weight: bold;
+  color: #cc0707;
+  font-size: 12px;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+input[type=text] {
+  border: 1px solid #285da2;
+  border-radius: 4px;
+}
+
+input[type=email] {
+  border: 1px solid #285da2;
+  border-radius: 4px;
+}
+
+input[type=email]:focus {
+  background-color: lightblue;
+}
+
+div.input-erro > input[type=text]  {
+  border: 1px solid #cc0707;
+  border-radius: 4px;
+}
+
+div.input-erro > input[type=email]  {
+  border: 1px solid #cc0707;
+  border-radius: 4px;
+}
+
+div.input-erro > input[type=checkbox]  {
+  border: 1px solid #cc0707;
+  border-radius: 4px;
+}
+
+
+div.input-erro > label  {
+  color: #cc0707;
+}

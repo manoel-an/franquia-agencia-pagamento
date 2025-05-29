@@ -1,0 +1,161 @@
+<!-- Video section -->
+<div class="about-video pt-6">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-10 mx-auto">
+				<div class="card border-0 shadow-md text-white border-rad">
+					<img class="card-img img-fluid border-rad" src="assets/img/app.png" alt="Card image" width="319"
+						height="300">
+					<div class="card-img-overlay black-tp-layer pos-center text-center border-rad">
+						<div class="center-holder">
+							<a data-fancybox href="https://www.youtube.com/watch?v=389lQcghJVM" class="play-button">
+								<i>
+									<span class="btn-text"><span>Play</span></span>
+									<span class="btn-icon"><i class="fa fa-play"></i></span>
+								</i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Our Goles and mission  -->
+<div class="our-mission bg-light section-gap">
+	<div class="container">
+		<div class="blog-alternate mb-5" *ngFor="let content of about">
+			<div class="row">
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<div class="correcao-img overlay-wrap">
+						<img style="height: 320px;" [src]="content?.image_path" width="300" height="300" alt="about-img"
+							class="img-fluid w-100 border-rad shadow-md" />
+						<div class="card-img-overlay primary-tp-layer pos-center text-center">
+							<div class="center-holder">
+								<a href="https://play.google.com/store/apps/details?id=br.com.dvitsolutions.agencia_pagamento_parcelado"
+									target="_blank" class="ih-fade-right"><i
+										class="fa fa-arrow-right fa-3x fa-inverse"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-12 col-lg-6">
+					<div style="margin-top: 20px;" class="about-content py-5 px-4">
+						<div class="mb-3">
+							<h2 class="font-2x m-0">{{content?.heading}}</h2>
+						</div>
+						<p class="paragrafo">
+							{{content?.content}}
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Service grid -->
+<div class="service section-gap pt-5">
+	<div class="container">
+		<div class="row" angly-serviceGrid [serviceGridContent]="services"></div>
+	</div>
+</div>
+<!-- Team grid 
+<div class="team section-gap">
+	<div class="container">
+		<div class="section-title-wrapper mb-5">
+			<div class="row">
+				<div class="col-sm-12 col-md-9 mx-auto text-center">
+					<h2 class="font-2x mb-3"> Meet Our Team </h2>
+					<p>Our creative specialists work on an international level at branding, design and development. Both online and offline.</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div  class="col-sm-12 col-md-4 m-sm-b" *ngFor="let content of team ? team.slice(0,3):[]">
+				<div class="card border-0 text-center">
+					<div class="overlay-wrap mb-4">
+						<img class="img-fluid rounded-circle shadow-md" [src] ="content?.image_path" alt="Card image cap" width="170" height="170" />
+					</div>
+					<div class="card-body p-0">
+						<h5 class="card-title mb-2">{{content?.name}}</h5>
+						<span class="text-primary d-block font-italic mb-3">{{content?.type}}</span>
+						<p class="card-text mb-4">{{content?.content}}</p>
+						<div class="social-icons" angly-socials [socials]="socialDetails" [socialsClasses]="socialsClasses">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+<!-- Testimonial -->
+<div class="testimonial-section section-gap">
+	<div class="">
+		<div class="container">
+			<div id="testimonial-2" class="carousel">
+				<div class="carousel-inner">
+					<div class="row">
+						<div class="col-sm-12 col-md-7 mx-auto">
+							<div class="carousel-item active text-center">
+								<h2 class="mb-5 text-white">Simule aqui os ganhos</h2>
+								<div class="mb-4">
+									<h5 class="text-white">Digite a % e o valor</h5>
+								</div>
+							</div>
+							<form [formGroup]="sendCalculationForm" (ngSubmit)="sendCalculation()">
+								<div class="form-row">
+									<div class="form-group col-12 col-md-6 col-lg-6 col-xl-4 mb-4">
+										<div class="input-group mb-3">
+											<span class="input-group-text money">%</span>
+											<select id="tipo" class="form-control form-select-lg mb-3" formControlName="type" aria-label=".form-select-lg">
+												<option value="1">1.5%</option>
+												<option value="2">2.0%</option>
+												<option value="3">2.5%</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-12 col-md-6 col-lg-6 col-xl-8 mb-4">
+										<div class="input-group mb-3">
+											<span class="input-group-text money">R$</span>
+											<input id="valor" type="number" class="form-control" formControlName="value" placeholder="Insira o valor aqui"/>
+											<button class="btn btn-outline-secondary" type="submit" id="button-addon2">Calcular</button>
+										</div>
+									</div>
+									<div style="margin-left: 40%;" class="mb-4">
+										<h2 class="mb-5 text-white">R$ {{calculatedValue}}</h2>
+									</div>	
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Contact information section -->
+<div class="contact-section py-6">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-9 mx-auto text-center">
+				<div class="mb-5">
+					<h2 class="font-2x"> Informações de contato </h2>
+				</div>
+			</div>
+		</div>
+		<div class="row" angly-homeContact [contact]="contact"></div>
+	</div>
+</div>
+<!-- Send message section -->
+<div class="send-msg style-form">
+	<div class="py-6">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-10 col-lg-7 mx-auto">
+					<div angly-sendMessage></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

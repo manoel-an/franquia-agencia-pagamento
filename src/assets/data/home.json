@@ -1,0 +1,54 @@
+{
+  "data":{
+      "video_content":{
+         "heading":"Objetivo e mercado",
+         "short_content":"Você sabia que 8 a cada 10 pessoas no Brasil gastam mais do que ganham? Hoje, quase 70 milhões de pessoas estão no SPC e SERASA. Seja um franqueado APP e monte seu próprio negócio, investindo menos de 10 mil reais .",
+         "content":[
+            "Juros rotativo.",
+            "Empréstimo com taxas altas.",
+            "Dívidas que comprometem o orçamento familiar"
+         ],
+         "video_link": "https://www.youtube.com/watch?v=w_povYyDTB4"
+      },
+      "support_content":{
+         "heading":"Estratégias",
+         "short_content":"Quem autentica os nossos boletos é o Banco Inter, nosso mantendedor e lastro junto ao Banco Central. São utilizadas 3 estratégias para tornar possível essa receita de 5 a 20 mil reais:",
+         "content":[
+            "Redes sociais ¹",
+            "Parcerias entre franqueados e estabelecimentos comerciais ²",
+            "Ciclo de relacionamentos ³"
+         ],
+         "video_link": "https://www.youtube.com/watch?v=389lQcghJVM",
+         "extra_short_content": "Os franqueados têm duas formas de ganho:",
+         "extra_content":[
+            "5% de cada boleto",
+            "R$ 2.500,00 (dois mil e quinhentos reais) na expansão de novas franquias"
+         ],
+         "legenda_content":[
+            "1 - Temos uma estrutura interna de marketing digital para atrair clientes de todo o Brasil. Fazemos o cliente te procurar.",
+            "2 - Farmácias, padarias, supermercados, lojas, etc.",
+            "3 - Listas de clientes, publicidade boca-a-boca que sempre funcionou e sempre irá funcionar."
+         ]
+      },
+      "mobile_featured":[
+         {
+            "icon_path":"ion-ios-crop",
+            "icon_class":"text-info",
+            "title":"Mobilidade",
+            "content":"Você pode trabalhar de casa ou de qualquer lugar, apenas usando sua internet, computador ou smartphone."
+         },
+         {
+            "icon_path":"ion-ios-color-wand",
+            "icon_class":"text-success",
+            "title":"Mercado Bilionário",
+            "content":"Já pensou em vender dinheiro? O mercado de crédito no Brasil só cresce a cada ano."
+         },
+         {
+            "icon_path":"ion-ios-albums",
+            "icon_class":"text-warning",
+            "title":"Flexibilidade",
+            "content":"Você consegue empreender, sem abrir mão do seu trabalho atual. 2h por dia é o que recomendamos na nossa franquia."
+         }
+      ]
+  }
+}

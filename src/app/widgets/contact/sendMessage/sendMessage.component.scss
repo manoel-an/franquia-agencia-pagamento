@@ -1,0 +1,53 @@
+.fonte-erro {
+    font-weight: bold;
+    color: #cc0707;
+    font-size: 12px;
+  }
+  
+  input[type=text]:focus {
+    background-color: lightblue;
+  }
+
+  input[type=email]:focus {
+    background-color: lightblue;
+  }
+
+  textarea {
+    border: 1px solid #285da2;
+    border-radius: 4px;
+  }
+
+  textarea:focus {
+    background-color: lightblue;
+  }
+  
+  input[type=text] {
+    border: 1px solid #285da2;
+    border-radius: 4px;
+  }
+  
+  input[type=email] {
+    border: 1px solid #285da2;
+    border-radius: 4px;
+  }
+  
+  div.input-erro > input[type=text]  {
+    border: 1px solid #cc0707;
+    border-radius: 4px;
+  }
+
+  div.input-erro > textarea  {
+    border: 1px solid #cc0707;
+    border-radius: 4px;
+  }
+  
+  div.input-erro > input[type=email]  {
+    border: 1px solid #cc0707;
+    border-radius: 4px;
+  }
+  
+  div.input-erro > label  {
+    color: #cc0707;
+    font-weight: bold;
+  }
+  

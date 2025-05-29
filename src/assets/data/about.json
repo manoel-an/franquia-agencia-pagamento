@@ -1,0 +1,15 @@
+{
+   "data":[
+      {
+         "image_path":"assets/img/parcele-aqui.jpg",
+         "heading":"Prestação de serviço",
+         "content":"Você comerciante, autônomo, trabalhador informal entre outros. Sabia que é possivel oferecer no seu estabelcimento o serviço de parcelamento de boletos ?  Todo comerciante deseja movimento de clientes, com a Agência de pagamento, você poderá oferecer aos seus clientes a possibilidade de receber contas como energia, água, telefone, fatura de cartão de crédito, qualquer boleto. Todo pagamento pode ser parcelado em ate 10 vezes, e você comerciante pode ganhar ate 2.5% do valor de volta."
+      },
+      {
+         "image_path":"assets/img/parcele-10.jpg",
+         "heading":"Mecânica de funcionamento",
+         "content":"Toda mecânica é realizada no aplicativo da Agência de Pagamento, o processo é feito com um cartão de crédito, onde pode realizar o parcelamento de 2 a 10 parcelas, com a taxa mais baixa do mercado. O comerciante ganha ate 2.5% do valor do boleto de volta. Tudo de maneira simples, sem burocracia, risco zero de inadimplência. Todos os dados do cliente são protegidos e criptografados, respeitando a LGPD. Entre em contato conosco e peça mais informações."
+      }
+
+   ]
+}

@@ -1,0 +1,25 @@
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999999;
+    display: block;
+}
+
+.pulse-button {
+    cursor: pointer;
+    position: relative;
+    padding: 3px 0 0 1px!important;
+    width: 54px;
+    height: 54px;
+    border-style: solid;
+    border-radius: 50%;
+    background: #61CE70;
+    box-shadow: 0 0 0 rgba(97,205,112, 0.8);
+    animation: pulse 2s infinite;
+}
+
+.btn-whatsapp button:hover {
+    background-color: #3a3a3a;
+}
+

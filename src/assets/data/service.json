@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "icon": {
+        "name": "ion-ios-play",
+        "color": "text-warning"
+      },
+      "title": " 1º Instale o APP ",
+      "content": "Baixe e instale o nosso App no seu Smartphone pelo o Google Play. Todas as operações financeiras são feitas pelo nosso aplicativo.",
+      "boldContent": " ",
+      "link": "https://play.google.com/store/apps/details?id=br.com.dvitsolutions.agencia_pagamento_parcelado",
+      "btnBgClass": "btn-outline-warning"
+    },
+    {
+      "icon": {
+        "name": "ion-ios-cog",
+        "color": "text-primary"
+      },
+      "title": " 2º Crie sua conta ",
+      "content": "Crie sua conta para ter acesso as funcionalidades do aplicativo. Preencha seus dados corretamente para verificação da sua conta.",
+      "boldContent": "Use esse código para pagar o boleto: 6476fcf6",
+      "link": "https://api.whatsapp.com/send?phone=556294076089&text=Quero%20orienta%C3%A7%C3%B5es%20para%20pagamento%20de%20boleto",
+      "btnBgClass": "btn-outline-primary"
+    },
+    {
+      "icon": {
+        "name": "ion-ios-more",
+        "color": "text-info"
+      },
+      "title": " 3º Pague seu boleto ",
+      "content": "Clique em Pagar Boleto para abrir o leitor de código de barras, escolha a quantidade de parcelas e em seguida finalize com os seus dados.",
+      "boldContent": " ",
+      "link": "https://api.whatsapp.com/send?phone=556294076089&text=Quero%20fazer%20um%20pagamento",
+      "btnBgClass": "btn-outline-info"
+    }
+  ]
+}

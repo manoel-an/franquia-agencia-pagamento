@@ -1,0 +1,38 @@
+.navbar {
+    padding: 10px 0;
+    background-color: #ff5623c1!important;
+  
+  }
+  .navbar-toggle{
+    color: #fff;
+  }
+  
+  .navbar-menu {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 150px;
+    margin: 0;
+    z-index: 9998;
+    background-color: #3a3633;
+    list-style: none;
+  }
+  
+  .navbar-menuitem{
+    padding: 15px;
+  }
+  
+  .navbar-menuitem a {
+    color: #c0bbb7;
+    text-decoration: none;
+  }
+  
+  .navbar-menuitem a:hover {
+    color: #fff;
+  }
+  
+  .navbar-menuitem.ativo {
+    background-color: #494541;
+  }

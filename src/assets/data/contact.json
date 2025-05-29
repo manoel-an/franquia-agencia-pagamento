@@ -1,0 +1,39 @@
+{
+  "data":{
+    "business_hours":[
+      {
+         "status":1,
+         "value":"De segunda a sexta-feira, das 8h às 18h."
+      },
+      {
+         "status":0,
+         "value":"Saturday: 9am to 17 pm"
+      },
+      {
+         "status":0,
+         "value":"Sunday: day off"
+      }
+    ],
+    "phone":[
+      {
+         "status":1,
+         "value":"62 99407-6089"
+      },
+      {
+         "status":0,
+         "value":"62 99407-6089"
+      }
+    ],
+    "email":[
+      {
+         "status":1,
+         "value":"manoel.albino841@gmail.com"
+      },
+      {
+         "status":0,
+         "value":"manoel.albino841@gmail.com"
+      }
+    ],
+    "location": "Residencia Boa esperança – Senador Canedo/GO"
+    }
+}

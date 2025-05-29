@@ -1,0 +1,103 @@
+{
+  "data": {
+    "feature_details": {
+      "image_path": "./assets/img/bg-mobile-p.jpg",
+      "heading": " Crédito fácil e para todos.",
+      "sub_heading": " A operação é processada por um cartão de crédito, podendo ser do titular ou de terceiro.",
+      "list": [
+        {
+          "icon": "fa fa-check text-green",
+          "content": "Parcele em ate 10x."
+        },
+        {
+          "icon": "fa fa-check text-green",
+          "content": "Sem consulta a Serasa ou SPC ."
+        },
+        {
+          "icon": "fa fa-check text-green",
+          "content": "Melhores taxas do mercado"
+        },
+        {
+          "icon": "fa fa-check text-green",
+          "content": "Parcela que cabe no seu bolso "
+        }
+      ]
+    },
+    "features_work": [
+      {
+        "icon": "fa bi bi-download",
+        "heading": "Baixe o APP",
+        "content": "Baixe e instale o nosso App no seu Smartphone pelo o Google Play. Todas as operações financeiras são feitas pelo nosso aplicativo.",
+        "content_code": "",
+        "url": "https://play.google.com/store/apps/details?id=br.com.dvitsolutions.agencia_pagamento_parcelado",
+        "action": "enable",
+        "btnLabel": "BAIXE AQUI"
+      },
+      {
+        "icon": "bi bi-person-plus",
+        "heading": "Cadastre-se",
+        "content": "Já com APP baixado, inscreva-se grátis e crie sua conta para ter acesso as funcionalidades do aplicativo. Preencha seus dados corretamente para verificação da sua conta.",
+        "content_code": "Use esse código de indicação: 6476fcf6",
+        "url": "",
+        "action": "disable",
+        "btnLabel": ""
+      },
+      {
+        "icon": "bi bi-ticket-detailed",
+        "heading": "Dados do Boleto",
+        "content": "Acesse a funcionalidade de pagamento. Preencha corretamente os dados do seu boleto bancário. Insira código de barra, data vencimento, valor e escolha o número de parcelas que deseja parcelar.",
+        "content_code": "",
+        "url": "",
+        "action": "disable",
+        "btnLabel": ""
+      },
+      {
+        "icon": "bi bi-person-badge-fill",
+        "heading": "Dados de Contato",
+        "content": "Preencha corretamente os dados de contato. 1ª Etapa: Email, Nome completo, CPF e Telefone. 2ª Etapa: Preencha corretamente os dados de endereço. CEP, Estado, Cidade, Bairro, Rua, Número e Complemento.",
+        "content_code": "",
+        "url": "",
+        "action": "disable",
+        "btnLabel": ""
+      },
+      {
+        "icon": "bi bi-credit-card",
+        "heading": "Dados do Cartão",
+        "content": "Prencha os dados de Cartão de crédito: Número do cartão, Nome do Titular do Cartão e Código de segurança. Será processado o pagamento conforme opções escolhida pelo usuário.",
+        "content_code": "",
+        "url": "",
+        "action": "disable",
+        "btnLabel": ""
+      },
+      {
+        "icon": "bi bi-check-circle-fill",
+        "heading": "Pagamento processado",
+        "content": "Seu boleto será compensado em aproximadamente 1 dia útil. O comprovante de pagamento será encaminhado para o email do usuário do APP.",
+        "content_code": "",
+        "url": "",
+        "action": "disable",
+        "btnLabel": ""
+      }
+    ],
+    "feature_testimonial": [
+      {
+        "image_path": "",
+        "name": "",
+        "type": "",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      },
+      {
+        "image_path": "",
+        "name": "",
+        "type": "",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      },
+      {
+        "image_path": "",
+        "name": "",
+        "type": "",
+        "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      }
+    ]
+  }
+}

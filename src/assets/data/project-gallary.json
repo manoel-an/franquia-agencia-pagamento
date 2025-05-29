@@ -1,0 +1,28 @@
+{
+   "data":[
+      {
+        "image_path":"./assets/img/parcele-aqui.jpg",
+        "type":"home"
+      },
+      {
+        "image_path":"./assets/img/parcele-seguro.jpg",
+        "type":"home"
+      },
+      {
+        "image_path":"./assets/img/parcele-10.jpg",
+        "type":"home"
+      },
+      {
+        "image_path":"./assets/img/parcele-contas.jpg",
+        "type":"home"
+      },
+      {
+        "image_path":"./assets/img/parcele-burocracia.jpg",
+        "type":"home"
+      },
+      {
+        "image_path":"./assets/img/parcele-renda.jpg",
+        "type":"home"
+      }
+   ]
+}

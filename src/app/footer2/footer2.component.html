@@ -1,0 +1,47 @@
+
+<div *ngIf="router?.url != '/sign-up' && router?.url != '/login' && router?.url != '/obrigado' && router?.url != '/not-found' && router?.url != '/maintenance'">
+	<!-- Footer section 2 -->
+	<div *ngIf="router?.url != '/home'" angly-subscribe [subscribeFormClasses]="subscribeFormClasses"></div>
+	<!--
+		<div angly-footerLogoList [logoList]="footerLogo" class="client-logo"></div>
+	-->
+	<div class="footer-wrapper-2 py-5 bg-light">
+		<div class="container container-full-width">
+			<div class="row">
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<div class="bottom-footer mb-2">
+						<ul class="list-inline mb-0 font-weight-bold"  *ngIf="footer2Menu">
+							<li class="list-inline-item" *ngFor="let menu of footer2Menu">
+								<a [routerLink]="['/', menu.state]" routerLinkActive="active-link" *ngIf="menu.type === 'link'">
+									<span>{{ menu?.name }}</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<span class="text-muted">&copy; 2025, Todos os direitos reservados </span>
+				</div>
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<span class="text-muted">REGISTRO RECEITA FEDERAL: 35.305.717/0001-26 | 4595/1964 REG. SISORF 3.440.2 REG.</span>
+				</div>
+				<div class="col-sm-12 col-md-8 col-lg-8">
+					<span class="text-muted">BACEN: 4619/2017 ART 1 E ART 3 / 1 / DIREITO DE MARCAS E PATENTES: ABF: 8955.</span>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4">
+					<div class="social-without-bg text-right">
+						<ul class="list-inline mb-0">
+							<li class="list-inline-item"><a href="https://www.facebook.com/profile.php?id=61572325806986" target="_blank"><i class="fa fa-facebook"></i></a></li>
+							<li class="list-inline-item"><a href="https://www.instagram.com/franquia.agencia.pagamento/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+							<li class="list-inline-item"><a href="https://www.youtube.com/c/Ag%C3%AAnciadePagamento" target="_blank"><i class="fa fa-youtube"></i></a></li>
+							<!--
+								<li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
+								<li class="list-inline-item"><a href="javascript:void(0)"><i class="fa fa-linkedin"></i></a></li>
+							-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- container closed -->
+	</div><!-- Footer wrapper closed -->
+	<!-- Back To Top -->
+	<a href="#" id="back-top" class="to-top scrolled" (click)="topScroll($event)"> <span class="to-top-icon"></span> </a>
+</div>

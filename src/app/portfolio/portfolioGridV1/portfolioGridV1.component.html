@@ -1,0 +1,24 @@
+<div class="portfolio-wrapper section-gap">
+   <div class="container">
+      <div class="row">
+         <div class="col-sm-12 col-md-6 col-lg-4" *ngFor="let portfolio of portfolioV1">
+            <div class="overlay-wrap mb-4">
+               <div class="card border-0 text-white border-rad">
+                  <img class="card-img img-fluid border-rad" src="{{portfolio?.imagePath}}"
+                     alt="Card image" width="319" height="479">
+                  <div class="card-img-overlay black-tp-layer pos-center text-center border-rad">
+                     <div class="center-holder">
+                        <a data-fancybox href="{{portfolio?.link}}" class="play-button">
+                           <i>
+                              <span class="btn-text"><span>Play</span></span>
+                              <span class="btn-icon"><i class="fa fa-play"></i></span>
+                           </i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>

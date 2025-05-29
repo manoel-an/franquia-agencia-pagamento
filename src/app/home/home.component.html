@@ -1,0 +1,201 @@
+<div class="page-main-container">
+	<!-- Service grid -->
+	<div class="service section-gap">
+		<div class="container">
+			<div class="section-title-wrapper">
+			  <div class="row">
+					<div class="col-sm-12 col-md-10 mx-auto text-center">
+						<h2>Como Funciona</h2>
+						<p class="mb-0">Seu boleto pago em menos de 24 horas.  </p>
+					</div>
+			  </div>
+			</div>
+			<div class="row" angly-serviceGrid [serviceGridContent]="services"></div>
+		</div>
+	</div>
+	<!-- Video section -->
+	<div class="chk-video-section section-gap bg-light">
+		<div class="container">
+		  <div class="row" angly-chkVideo [videoContent]="videoContent">
+		  </div>
+		</div>
+	</div>
+	<!-- Featured section -->
+	<div class="mob-feature">
+		<div class="section-gap">
+			<div class="container">
+				<div class="section-title-wrapper">
+				  <div class="row">
+						<div class="col-sm-12 col-md-10 mx-auto text-center text-white">
+							<h2 class="text-white"> Quem Somos </h2>
+							<p style="text-align: justify; text-indent: 40px" class="mb-0">Nós somos uma Financeira e nossa sede fica  em Recife.
+								Atualmente temos mais de 200 Franquias espalhadas em todo território Nacional
+								A média de ganho de nossos Franqueados, está entre  5 a 20 mil reais ao mês. 
+								
+								A Agência de Pagamento, trabalha com dois público:
+								As pessoas que estão com dificuldade financeira e precisam  pagar um boleto;
+								As pessoas que querem empreender com baixo investimento.
+								
+								Nossa visão é se tornar a maior Franqueadora do Brasil;
+								Nossa missão é  ajudar pessoas com dificuldade financeira.
+								
+								Acreditamos na transparência e integridade nos relacionamentos.
+								
+								Somos como um banco, só com baixo custo e com  facilidade para empreender. 
+								E estamos bem pertinho de você.
+								
+								Nosso trabalho deixa tudo mais simples, transparente e justo. 
+								Sim, estamos fazendo essa transformação acontecer.</p>
+						</div>
+				  </div>
+				</div>
+				<div class="row" angly-mobileFeatured [mobileFeatured]="mobileFeatured"></div>
+			</div>
+		</div>
+	</div>
+	<!-- Projects grid-->
+	<div class="Gallery-grid section-gap">
+		<div class="container">
+			<div class="section-title-wrapper">
+				<div class="row">
+					<div class="col-sm-12 col-md-10 mx-auto text-center">
+						<h2> Pague com segurança e sem burocracia </h2>
+						<p style="text-align: justify; text-indent: 40px" class="mb-0">
+						  Usando nossa ferramenta, você tem a garantia da compensação do seu boleto, tudo dentro de um ambiente seguro, 
+						  todos os dados são criptografados, garantido a melhor usabilidade possível. Somente aqui você poderá ganhar ao pagar o seu boleto.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row" angly-gallaryGrid gridClass="col-sm-12 col-md-4 mb-4" [gallaryGridContent]="projectGallary"></div>
+		</div>
+	</div>
+	<!-- Posts grid 
+	<div class="post-section bg-light section-gap">
+		<div class="container">
+			<div class="section-title-wrapper">
+				<div class="row">
+					 <div class="col-sm-12 col-md-10 mx-auto text-center">
+						<h2> Latest Blog Posts </h2>
+					 </div>
+				</div>
+			</div>
+			<div class="card-deck">
+				<div class="row" angly-postGrid [postGridContent]="posts"></div>
+			</div>
+		</div>
+	</div>
+	-->
+	<!-- Team grid 
+	<div class="team section-gap">
+		<div class="container">
+			<div class="section-title-wrapper">
+				<div class="row">
+					<div class="col-sm-12 col-md-10 mx-auto text-center">
+						<h2> Depoimentos </h2>
+						<p class="mb-0">Veja alguns casos de sucesso. Venha escrever a sua história conosco.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row" angly-teamGrid [teamGridContent]="team" ></div>
+		</div>
+	</div>
+	-->
+	<!-- Pricing grid 
+	<div class="pricing-grid">
+		<div class="container">
+			<div class="section-title-wrapper">
+				<div class="row">
+					<div class="col-sm-12 col-md-10 mx-auto text-center">
+						<h2 class="text-white"> Plans and Pricing  </h2>
+					</div>
+				</div>
+			</div>
+		  <div class="row">
+				<div class="col-sm-12 col-md-4 col-lg-4 mb-4" *ngFor="let content of pricingContent">
+					<div class="pricing-card border-0 pt-5 px-4 pb-4 border-rad">
+						<span class="mb-4 {{content?.bg_color}} p-2 px-3 btn-pill text-center d-inline-block"> {{content?.home_title}} </span>
+						<h2 class="font-4x px-2 fw-200 mb-4"><sup class="font-xs"> {{content?.currency}} </sup>
+						{{content?.price}} <sub class="font-sm"> </sub></h2>
+						<ul class="list-unstyled pricing-list mb-5">
+							<li class="mb-3" *ngFor="let pricingList of content?.pricing_list">
+								<i class="fa {{pricingList?.icon}} mr-2"></i>
+								{{ pricingList?.value }}
+							</li>
+						</ul>
+						<a routerLink="/{{content.url}}" class="btn btn-outline-secondary btn-pill btn-lg submit-btn btn-block">Buy Plan</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	-->
+	<div class="container">
+		<div style="height: 150px;" class="section-title-wrapper">
+			<div class="row">
+				<div class="col-sm-12 col-md-10 mx-auto text-center">
+					<h2> Depoimentos </h2>
+					<p style="text-align: justify; text-indent: 40px; font-size: 20px;" class="mb-0">
+						Veja alguns casos de uso e de sucesso. Venha escrever sua história também. 
+						Nosso trabalho deixa tudo mais simples.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="testimonial-wrapper section-gap">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-6" *ngFor="let user of testimonialV1;  let i=index">
+						<div *ngIf="i<6">
+							<div class="card border-0 mb-4 card-shadow">
+								<div class="card-body p-4">
+									<img [src]="user?.avatar" class="rounded-circle shadow-md mb-3" width="80" height="80" alt="testimonial user thumb" />
+									<div class="mb-3">
+										<h4 class="mb-2 title">{{user?.heading}}</h4>
+										<h6>{{user?.user_name}}</h6>
+									</div>
+									<p>{{user?.content}}</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Testimonial 
+	<div class="testimonial-section section-gap">
+		<div class="">
+			<div class="container">
+				<div angly-testimonial [testimonialContent]="testimonial"></div>
+			</div>
+		</div>
+	</div>
+	-->
+	<!-- Subscribe section -->
+	<div angly-subscribe [subscribeFormClasses]="subscribeFormClasses"></div>
+	<!-- Contact information section -->
+	<div class="contact-section section-gap">
+		<div class="container">
+			<div class="section-title-wrapper">
+				<div class="row">
+					<div class="col-sm-12 col-md-10 mx-auto text-center">
+						<h2>Informações de contato  </h2>
+					</div>
+				</div>
+			</div>
+			<div class="row" angly-homeContact [contact]="contact"></div>
+		</div>
+	</div>
+	<!-- Send message section -->
+	<div class="send-msg section-gap style-form">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-10 col-lg-7 mx-auto">
+						<div angly-sendMessage></div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>

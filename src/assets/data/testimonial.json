@@ -1,0 +1,75 @@
+
+{
+	"data":[
+      {
+         "avatar":"assets/img/nivaldo.jpeg",
+         "heading": "Nivaldo Douglas",
+         "user_name":"MEI - Micro Empreendedor Individual",
+         "classes":{
+            "colClass": "col-sm-12 col-md-6 col-lg-5 col-xl-5",
+            "bgClass": "bg-info"
+         },
+         "content": "Paguei meu boleto de forma simples, rápida e segura."
+      },
+      {
+         "avatar":"assets/img/danuza.jpeg",
+         "heading": "Danuza Gusmão",
+         "user_name":"Consultora do Sebrae",
+         "classes":{
+            "colClass": "col-sm-12 col-md-6 col-lg-7 col-xl-7",
+            "bgClass": "bg-green"
+         },
+         "content": "Gostei por ser um negócio voltado para o financeiro, de demanda e com tecnologia e gera outras fontes de renda."
+      },
+      {
+         "avatar":"assets/img/alexsandro.jpeg",
+         "heading": "Alexsandro Nascimento",
+         "user_name":"Analista de Sistemas",
+         "classes":{
+            "colClass": "col-sm-12 col-md-6 col-lg-6 col-xl-6",
+            "bgClass": "bg-warning"
+         },
+         "content": "Super prático e rapido, dividi o meu debito e  tudo resolvido na mesma hora, sem análise de crédito e sem burocracia."
+      },
+      {
+         "avatar":"assets/img/fabio.jpeg",
+         "heading": "Fábio Santos",
+         "user_name":"Autônomo no CEASA",
+         "classes":{
+            "colClass": "col-sm-12 col-md-6 col-lg-6 col-xl-6",
+            "bgClass": "bg-success"
+         },
+         "content": "Meu motivo de adquirir a franquia APP foi pra ajudar as pessoas e aumentar minhas fontes de renda. Em um dia como Franqueado da Agencia de Pagamento eu faturei R$ 750,00."
+      },
+      {
+         "avatar":"assets/img/esthela.jpeg",
+         "heading": "Esthela Campos",
+         "user_name":"Coordenadora financeira",
+         "classes":{
+            "colClass": "col-sm-12 col-md-6 col-lg-4 col-xl-4",
+            "bgClass": "bg-danger"
+         },
+         "content": "Eu vi como é simples para pagar meus boletos de forma parcelada, não tive dúvidas em ser usuária da Agência de Pagamento e me ajudou bastante."
+      },
+      {
+         "avatar":"assets/img/valcides.jpeg",
+         "heading": "Valcides Xavier",
+         "user_name":"Coordenador de RH",
+         "classes":{
+            "colClass": "col-sm-12 col-md-6 col-lg-4 col-xl-4",
+            "bgClass": "bg-yellow"
+         },
+         "content": "Com um alto retorno do investimento mesmo antes de pagar o que foi investido.Em menos de uma semana faturei R$ 1250,00 com a franquia."
+      },
+      {
+         "avatar":"assets/img/1-team.jpg",
+         "heading": "Powerball fever",
+         "user_name":"Earl Love",
+         "classes":{
+            "colClass": "col-sm-12 col-md-6 col-lg-4 col-xl-4",
+            "bgClass": "bg-primary"
+         },
+         "content": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      }
+	]
+}

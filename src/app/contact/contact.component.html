@@ -1,0 +1,188 @@
+<div class="contact-widget section-gap">
+	<div class="container">
+		<!--
+			<div class="row">
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center">
+					<div class="contact-icon mb-4">
+						<i class="fa fa-phone text-warning fa-3x"></i>
+					</div>
+					<h4 class="text-warning mb-3"> Call Us </h4>
+					<div *ngFor="let phone of contact?.phone">
+						<h5 *ngIf="phone?.status == 1">
+							<a class="text-dark" href="tel:{{phone?.value}}">{{phone?.value}}</a>
+						</h5>
+					</div>
+					</div>
+				<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center">
+					<div class="contact-icon mb-4">
+					<i class="fa fa-envelope-o text-warning fa-3x"></i>
+					</div>
+					<h4 class="text-warning mb-3"> Send Us Mail </h4>
+					<div *ngFor="let email of contact?.email">
+						<h5 *ngIf="email?.status == 0">
+							<a class="text-dark" href="mailto:{{email?.value}}">{{email?.value}}</a>
+						</h5>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 mb-3 text-center">
+					<div class="contact-icon mb-4">
+					<i class="fa fa-comments text-warning fa-3x"></i>
+					</div>
+					<h5 class="text-warning mb-3"> Get Instant Help </h5>
+					<a href="javascript:void(0)" class="btn bg-green btn-sm"> Live Chat </a>
+				</div>
+			</div>
+		-->
+	</div>
+</div>
+<div class="contact-info">
+	<div class="container">
+		<div class="section-title-wrapper">
+			<div class="row">
+				<div class="col-sm-12 col-md-10 mx-auto text-center">
+					<h5> Veja como gerar de 5.000 à 20.000 por MÊS com a franquia da Agência de Pagamento. </h5>
+					<p style="text-align: justify; text-indent: 40px" class="mb-0">
+						Ideal para pessoas empreendedoras (CLT, Servidor público, Autônomo ou Aposentado) que desejam
+						ter uma segunda renda sem abrir mão da sua ocupação atual.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 wow fadeIn animated margem-top-video"
+				data-wow-duration="2s" data-wow-delay="3s">
+				<div class="card border-0 text-white border-rad">
+					<img class="card-img img-fluid border-rad" src="assets/img/franquia.png" alt="Card image"
+						width="319" height="479">
+					<div class="card-img-overlay black-tp-layer pos-center text-center border-rad">
+						<div class="center-holder">
+							<a data-fancybox href="https://www.youtube.com/watch?v=ROgOv-UVq7I" class="play-button">
+								<i>
+									<span class="btn-text"><span>Play</span></span>
+									<span class="btn-icon"><i class="fa fa-play"></i></span>
+								</i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-12 col-lg-5">
+				<div class="border-0 border-rad p-4 card-shadow">
+					<div class="mb-4">
+						<h6 class="fonte-formulario"> Acesse o plano de negócio gratuitamente! </h6>
+					</div>
+					<div style="font-size: 12px;" class="fonte-formulario section-title-wrapper mb-3">
+						<b class="mb-0">
+							Só preencha os dados abaixo se está disposto a empreender.
+						</b>
+					</div>
+					<form [formGroup]="sendLeadForm" (ngSubmit)="sendLead()">
+						<div class="form-row">
+							<div class="form-group col-12 col-md-6 col-lg-6 col-xl-6 mb-4"
+								[ngClass]="{'input-erro': sendLeadForm.controls['firstName'].invalid && sendLeadForm.controls['firstName'].touched}">
+								<label class="fonte-formulario mb-3" for="first-name">Primeiro Nome</label>
+								<input id="first-name" type="text" class="form-control" placeholder=""
+									formControlName="firstName" required>
+								<div class="fonte-erro"
+									*ngIf="sendLeadForm.controls['firstName'].invalid && sendLeadForm.controls['firstName'].touched">
+									Primeiro nome é obrigatório
+								</div>
+							</div>
+							<div class="form-group col-12 col-md-6 col-lg-6 col-xl-6 mb-4"
+								[ngClass]="{'input-erro': sendLeadForm.controls['lastName'].invalid && sendLeadForm.controls['lastName'].touched}">
+								<label class="fonte-formulario mb-3" for="last-name">Último Nome</label>
+								<input id="last-name" type="text" class="form-control" placeholder=""
+									formControlName="lastName" required>
+								<div class="fonte-erro"
+									*ngIf="sendLeadForm.controls['lastName'].invalid && sendLeadForm.controls['lastName'].touched">
+									Último nome é obrigatório
+								</div>
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-12 col-md-5 col-lg-5 col-xl-5 mb-3"
+								[ngClass]="{'input-erro': sendLeadForm.controls['mobile'].invalid && sendLeadForm.controls['mobile'].touched}">
+								<label class="fonte-formulario mb-3" for="mobile">Celular
+									<i style="color: #61ce70;" class="bi bi-whatsapp"></i>
+								</label>
+								<input id="mobile" type="text" class="form-control" placeholder=""
+									formControlName="mobile" required>
+								<div class="fonte-erro"
+									*ngIf="sendLeadForm.controls['mobile'].invalid && sendLeadForm.controls['mobile'].errors && sendLeadForm.controls['mobile'].errors['required'] && sendLeadForm.controls['mobile'].touched">
+									Celular é obrigatório
+								</div>
+								<div class="fonte-erro"
+									*ngIf="sendLeadForm.controls['mobile'].errors && sendLeadForm.controls['mobile'].touched">
+									Insira um celular válido
+								</div>
+							</div>
+							<div class="form-group col-12 col-md-7 col-lg-7 col-xl-7 mb-5"
+								[ngClass]="{'input-erro': sendLeadForm.controls['email'].invalid && sendLeadForm.controls['email'].touched}">
+								<label class="fonte-formulario mb-3" for="email-address">Email</label>
+								<input id="email-address" type="email" class="form-control" placeholder=""
+									formControlName="email" required>
+								<div class="fonte-erro"
+									*ngIf="sendLeadForm.controls['email'].invalid && sendLeadForm.controls['email'].errors && sendLeadForm.controls['email'].errors['required'] && sendLeadForm.controls['email'].touched">
+									Email é obrigatório
+								</div>
+								<div class="fonte-erro"
+									*ngIf="sendLeadForm.controls['email'].errors && sendLeadForm.controls['email'].touched">
+									Insira um email válido
+								</div>
+							</div>
+						</div>
+						<div class="form-group mb-4"
+							[ngClass]="{'input-erro': sendLeadForm.controls['checkMeeting'].invalid && sendLeadForm.controls['checkMeeting'].touched}">
+							<label
+								class="fonte-formulario-checkbox custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
+								<input type="checkbox" class="custom-control-input" formControlName="checkMeeting"
+									required>
+								<span class="custom-control-indicator"></span>
+								<span class="custom-control-description">Aceito fazer uma reunião para conhecer
+									melhor¹</span>
+							</label>
+							<div class="fonte-erro"
+								*ngIf="sendLeadForm.controls['checkMeeting'].invalid && sendLeadForm.controls['checkMeeting'].touched">
+								É obrigatório aceitar a reunão
+							</div>
+						</div>
+						<div class="right-align sform-group">
+							<button style="margin: 10px;" type="submit" class="btn btn-dark btn-chk-dark inverse">Quero
+								saber mais</button>
+						</div>
+					</form>
+				</div>
+
+				<div class="col-sm-12 col-md-12 wow fadeIn animated margem-texto" data-wow-duration="2s"
+					data-wow-delay="3s">
+					<ul class="list-unstyled m-md-b">
+						<li class="mb-2 fonte-legenda">
+							<span class="mr-2 d-inline-block"><i class="fa fa fa-caret-right"></i></span>
+							<span class="d-flex-inline align-top">1 - Durante o processo de seleção será necessário uma
+								reunião online. </span>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+	<div class="follow-us text-center section-gap">
+		<div class="container">
+			<div class="mb-5">
+				<h2> Follow Us</h2>
+			</div>
+			<div class="social-icon-widget">
+				<ul class="list-inline mb-0">
+					<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-facebook"><i class="fa fa-facebook fa-inverse"></i></a></li>
+					<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-twitter"><i class="fa fa-twitter fa-inverse"></i></a></li>
+					<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-google"><i class="fa fa-google-plus fa-inverse"></i></a></li>
+					<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-pinterest"><i class="fa fa-pinterest fa-inverse"></i></a></li>
+					<li class="list-inline-item mx-2"><a href="javascript:void(0)" class="square-60 rounded-circle bg-linked"><i class="fa fa-linkedin fa-inverse"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+-->
