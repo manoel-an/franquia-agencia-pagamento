@@ -40,7 +40,7 @@ export class ThankYouComponent implements OnInit {
     const owner = 'manoel-an';
     const repo = 'franquia-agencia-pagamento';
     const path = 'data/db.json';
-    const token = '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';
+    const token = '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';
     const message = `DB JSon atualizado com novo lead em ${moment(new Date()).format("DD/MM/YYYY")}.`;
     let sha: string;
 
