@@ -1,1 +1,12 @@
-[{"data_registratation":"30/11/2024","first_name":"Manoel","last_name":"Albino Neto","celphone":"62 99407-6089","email":"manoel.albino841@gmail.com","accept_meeting":true,"payment":true,"id":1}]
+[
+	{
+		"data_registratation": "30/11/2024",
+		"first_name": "Manoel",
+		"last_name": "Albino Neto",
+		"celphone": "62 99407-6089",
+		"email": "manoel.albino841@gmail.com",
+		"accept_meeting": true,
+		"payment": true,
+		"id": 1
+	}
+]
