@@ -19,6 +19,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 2
+		},
+		{
+			"data_registratation": "31/05/2025",
+			"first_name": "Teste",
+			"last_name": "commit",
+			"celphone": "62992376014",
+			"email": "git@git.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 3
 		}
 	]
 }
