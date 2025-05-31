@@ -49,7 +49,7 @@ export class HomeComponent implements OnInit {
             () => this.contact
          );
 
-         this.service.getTestimonial().
+      this.service.getTestimonial().
          subscribe(response => { this.testimonialV1 = response },
             err => console.log(err),
             () => this.testimonialV1
@@ -58,6 +58,7 @@ export class HomeComponent implements OnInit {
    }
 
    ngOnInit() {
+
    }
 
 

@@ -3,6 +3,7 @@ import { map } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from 'src/environments/environment.prod';
+import { Observable } from 'rxjs';
 
 interface Response {
    data: any,
@@ -85,7 +86,11 @@ export class ChkService {
    }
 
    adicionarLead(lead: any) {
-      return this.http.post<Response>(`${environment.url}/api/leads`, lead).pipe(map(response => response.id));;
+      return this.http.post<Response>(`${environment.url}/api/leads`, lead).pipe(map(response => response.id));
+   }
+
+   getLeads(): Observable<any> {
+      return this.http.get(`${environment.url}/api/leads`);
    }
 
 }
