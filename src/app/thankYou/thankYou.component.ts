@@ -40,13 +40,13 @@ export class ThankYouComponent implements OnInit {
     const owner = 'manoel-an';
     const repo = 'franquia-agencia-pagamento';
     const path = 'data/db.json';
-    const token = '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';
+    const token = 'Z2l0aHViX3BhdF8xMUFDSVlFVEkwSjAybDZCZVloUGw1X3RrZFJnOGM2S0ZrZllZWjlkMlYxb2RsbWF0REY1WTVDSE4yeXVDaHRrZU01N1c0UFRDUW5ndm5BQzZX';
     const message = `DB JSon atualizado com novo lead em ${moment(new Date()).format("DD/MM/YYYY")}.`;
     let sha: string;
 
     try {
 
-      const file = await this.githubService.getFile(owner, repo, path, token).toPromise();
+      const file = await this.githubService.getFile(owner, repo, path, atob(token)).toPromise();
 
       sha = file.sha;
 
@@ -54,7 +54,7 @@ export class ThankYouComponent implements OnInit {
 
       const newContent = btoa(JSON.stringify(dbJson, null, '\t'));
 
-      this.githubService.updateFile(owner, repo, path, newContent, sha, message, token).subscribe(
+      this.githubService.updateFile(owner, repo, path, newContent, sha, message, atob(token)).subscribe(
         response => console.log('File updated successfully', response),
         error => console.error('Error updating file', error)
       );
