@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ChkService } from '../service/chk.service';
 import { GithubService } from '../service/github-service';
 import * as moment from 'moment';
+import { environment } from 'src/environments/environment.prod';
 
 @Component({
   selector: 'angly-thank-you',
@@ -40,13 +41,13 @@ export class ThankYouComponent implements OnInit {
     const owner = 'manoel-an';
     const repo = 'franquia-agencia-pagamento';
     const path = 'data/db.json';
-    const token = 'Z2l0aHViX3BhdF8xMUFDSVlFVEkwTlRBRktrVTZ2RFNHX3RyQkltQmQxVE1QSmhKcXQyTWVpMUdTV2x5YUFWNDZEekdLWTZJOHBmRW5aRzJVWlpFMmpiU09JTHV5';
+    const token = environment.token;
     const message = `DB JSon atualizado com novo lead em ${moment(new Date()).format("DD/MM/YYYY")}.`;
     let sha: string;
 
     try {
 
-      const file = await this.githubService.getFile(owner, repo, path, atob(token)).toPromise();
+      const file = await this.githubService.getFile(owner, repo, path, token).toPromise();
 
       sha = file.sha;
 
@@ -54,7 +55,7 @@ export class ThankYouComponent implements OnInit {
 
       const newContent = btoa(JSON.stringify(dbJson, null, '\t'));
 
-      this.githubService.updateFile(owner, repo, path, newContent, sha, message, atob(token)).subscribe(
+      this.githubService.updateFile(owner, repo, path, newContent, sha, message, token).subscribe(
         response => console.log('File updated successfully', response),
         error => console.error('Error updating file', error)
       );
