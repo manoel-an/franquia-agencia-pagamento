@@ -40,7 +40,7 @@ export class ThankYouComponent implements OnInit {
     const owner = 'manoel-an';
     const repo = 'franquia-agencia-pagamento';
     const path = 'data/db.json';
-    const token = 'Z2l0aHViX3BhdF8xMUFDSVlFVEkwSjAybDZCZVloUGw1X3RrZFJnOGM2S0ZrZllZWjlkMlYxb2RsbWF0REY1WTVDSE4yeXVDaHRrZU01N1c0UFRDUW5ndm5BQzZX';
+    const token = 'Z2l0aHViX3BhdF8xMUFDSVlFVEkwTlRBRktrVTZ2RFNHX3RyQkltQmQxVE1QSmhKcXQyTWVpMUdTV2x5YUFWNDZEekdLWTZJOHBmRW5aRzJVWlpFMmpiU09JTHV5';
     const message = `DB JSon atualizado com novo lead em ${moment(new Date()).format("DD/MM/YYYY")}.`;
     let sha: string;
 
