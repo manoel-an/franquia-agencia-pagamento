@@ -47,6 +47,8 @@ export class ThankYouComponent implements OnInit {
 
     try {
 
+      console.log(`TOKEN = ${token}`);
+
       const file = await this.githubService.getFile(owner, repo, path, token).toPromise();
 
       sha = file.sha;
