@@ -16,7 +16,7 @@ export class ContactComponent implements OnInit {
 
   emailPattern: any = /\S+@\S+\.\S+/;
 
-  lead: any;
+  id: any;
 
   constructor(private pageTitleService: PageTitleService, private router: Router, private formBuilder: UntypedFormBuilder, private service: ChkService) {
 
@@ -46,10 +46,10 @@ export class ContactComponent implements OnInit {
     if (this.sendLeadForm.valid) {
 
       this.service.adicionarLead({ data_registratation: moment(new Date()).format("DD/MM/YYYY"), first_name: this.sendLeadForm.get("firstName")?.value, last_name: this.sendLeadForm.get("lastName")?.value, celphone: this.sendLeadForm.get("mobile")?.value, email: this.sendLeadForm.get("email")?.value, accept_meeting: this.sendLeadForm.get("checkMeeting")?.value, payment: false }).
-        subscribe(response => { this.lead = response },
+        subscribe(response => { this.id = response },
           err => console.log(err),
           () => {
-            console.log(`Lead ${this.lead.id} enviado com sucesso.`)
+            console.log(`Lead ${this.id} enviado com sucesso.`)
             this.router.navigate(['/obrigado']);
           }
         );
