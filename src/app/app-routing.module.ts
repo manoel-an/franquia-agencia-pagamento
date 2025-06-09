@@ -22,11 +22,12 @@ export const AppRoutes: Routes = [{
    children: [
       {
          path: 'home',
-         component: HomeComponent
+         component: HomeComponent,
+         canActivate: [GoogleAnalyticsGuard]
       }, {
          path: 'seja-um-franqueado',
          component: ContactComponent,
-         canActivate: [FacebookPixelGuard, GoogleAnalyticsGuard]
+         canActivate: [FacebookPixelGuard]
       }, {
          path: 'parcele-seu-boleto',
          component: FeaturesComponent
