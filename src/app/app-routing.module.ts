@@ -22,8 +22,7 @@ export const AppRoutes: Routes = [{
    children: [
       {
          path: 'home',
-         component: HomeComponent,
-         canActivate: [GoogleAnalyticsGuard]
+         component: HomeComponent
       }, {
          path: 'seja-um-franqueado',
          component: ContactComponent,
