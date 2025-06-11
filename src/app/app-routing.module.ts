@@ -10,7 +10,6 @@ import { AboutComponent } from './about/about.component';
 import { SupportComponent } from './support/support.component';
 import { ThankYouComponent } from './thankYou/thankYou.component';
 import { FacebookPixelGuard } from './guards/facebook-pixel.guard';
-import { GoogleAnalyticsGuard } from './guards/google-analitics.guard';
 
 export const AppRoutes: Routes = [{
    path: '',
