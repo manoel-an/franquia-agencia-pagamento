@@ -79,6 +79,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 8
+		},
+		{
+			"data_registratation": "10/07/2025",
+			"first_name": "Emanuel",
+			"last_name": "Gustavo",
+			"celphone": "21973092699",
+			"email": "lojasvirtuaisemanuelgustavofju@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 9
 		}
 	]
 }
