@@ -69,6 +69,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 7
+		},
+		{
+			"data_registratation": "10/07/2025",
+			"first_name": "evandro",
+			"last_name": "Magalaes",
+			"celphone": "11934433914",
+			"email": "skyne.m.art@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 8
 		}
 	]
 }
