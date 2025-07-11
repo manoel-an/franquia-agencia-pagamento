@@ -89,6 +89,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 9
+		},
+		{
+			"data_registratation": "11/07/2025",
+			"first_name": "MIGUEL",
+			"last_name": "Pasoline",
+			"celphone": "27999236865",
+			"email": "maloka20203600@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 10
 		}
 	]
 }
