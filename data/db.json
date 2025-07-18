@@ -249,6 +249,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 25
+		},
+		{
+			"data_registratation": "18/07/2025",
+			"first_name": "João Luis ",
+			"last_name": "Com acentuação ",
+			"celphone": "11923760674",
+			"email": "teste@teste.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 26
 		}
 	]
 }
