@@ -53,7 +53,9 @@ export class ThankYouComponent implements OnInit {
 
       const dbJson = {leads: content};
 
-      const newContent = btoa(JSON.stringify(dbJson, null, '\t'));
+      const str = JSON.stringify(dbJson, null, '\t');
+
+      const newContent = btoa(unescape(encodeURIComponent(str)));
 
       this.githubService.updateFile(owner, repo, path, newContent, sha, message, token).subscribe(
         response => console.log('File updated successfully', response),
