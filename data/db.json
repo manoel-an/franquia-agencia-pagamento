@@ -259,6 +259,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 26
+		},
+		{
+			"data_registratation": "18/07/2025",
+			"first_name": "Wilson ",
+			"last_name": "Vatrim",
+			"celphone": "47984350972",
+			"email": "wilso.wixo@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 27
 		}
 	]
 }
