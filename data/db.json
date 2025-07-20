@@ -279,6 +279,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 28
+		},
+		{
+			"data_registratation": "20/07/2025",
+			"first_name": "Gleide santos de Jesus",
+			"last_name": "oliveira",
+			"celphone": "18997929489",
+			"email": "gleide.s.jesus15@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 29
 		}
 	]
 }
