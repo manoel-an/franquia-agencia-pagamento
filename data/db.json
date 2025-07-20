@@ -289,6 +289,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 29
+		},
+		{
+			"data_registratation": "20/07/2025",
+			"first_name": "Ney ",
+			"last_name": "Silva ",
+			"celphone": "63991277684",
+			"email": "neynafrente@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 30
 		}
 	]
 }
