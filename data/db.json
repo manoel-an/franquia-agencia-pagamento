@@ -419,6 +419,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 42
+		},
+		{
+			"data_registratation": "23/07/2025",
+			"first_name": "Lucas",
+			"last_name": "Falconi",
+			"celphone": "48999376637",
+			"email": "lucasfalconimotta@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 43
 		}
 	]
 }
