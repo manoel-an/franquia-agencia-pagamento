@@ -519,6 +519,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 52
+		},
+		{
+			"data_registratation": "25/07/2025",
+			"first_name": "Claudia",
+			"last_name": "Cesar dourado ",
+			"celphone": "77988849598",
+			"email": "claudiacesardourado@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 53
 		}
 	]
 }
