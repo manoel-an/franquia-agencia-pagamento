@@ -529,6 +529,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 53
+		},
+		{
+			"data_registratation": "26/07/2025",
+			"first_name": "Pedro",
+			"last_name": "Souza ",
+			"celphone": "91992175431",
+			"email": "pedrodbv@hotmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 54
 		}
 	]
 }
