@@ -539,6 +539,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 54
+		},
+		{
+			"data_registratation": "26/07/2025",
+			"first_name": "Leandro Duarte ",
+			"last_name": "Alecio",
+			"celphone": "67992706167",
+			"email": "duarttleo2023@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 55
 		}
 	]
 }
