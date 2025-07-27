@@ -589,6 +589,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 59
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "Erika Dantas Machado ",
+			"last_name": "Lucas",
+			"celphone": "31980253522",
+			"email": "erikadantasm@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 60
 		}
 	]
 }
