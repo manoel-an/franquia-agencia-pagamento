@@ -599,6 +599,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 60
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "Thalita",
+			"last_name": "Almeida",
+			"celphone": "15996122126",
+			"email": "almeidathalita932@outlook.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 61
 		}
 	]
 }
