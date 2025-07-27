@@ -569,6 +569,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 57
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "Francisco Éder Da Silva",
+			"last_name": "Cardoso",
+			"celphone": "86988003795",
+			"email": "castelo.int@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 58
 		}
 	]
 }
