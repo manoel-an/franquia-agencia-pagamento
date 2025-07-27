@@ -609,6 +609,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 61
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "Plinio Guedson Gama",
+			"last_name": "Costa",
+			"celphone": "98985924555",
+			"email": "pliniomano2020@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 62
 		}
 	]
 }
