@@ -559,6 +559,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 56
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "Bruno de jesus invenção",
+			"last_name": "santos",
+			"celphone": "79999452156",
+			"email": "invencaobruno@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 57
 		}
 	]
 }
