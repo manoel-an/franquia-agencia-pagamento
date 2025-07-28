@@ -629,6 +629,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 63
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "Carlos Magno Rangel",
+			"last_name": "Rodrigues",
+			"celphone": "22999576308",
+			"email": "maguinhodaantenasky@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 64
 		}
 	]
 }
