@@ -649,6 +649,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 65
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "JEFFERSON",
+			"last_name": "GALO",
+			"celphone": "11942430482",
+			"email": "jeffersondelboni82@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 66
 		}
 	]
 }
