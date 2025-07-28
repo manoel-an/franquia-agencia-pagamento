@@ -669,6 +669,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 67
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "Rafael",
+			"last_name": "Lima",
+			"celphone": "31973134861",
+			"email": "rafael.limah@icloud.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 68
 		}
 	]
 }
