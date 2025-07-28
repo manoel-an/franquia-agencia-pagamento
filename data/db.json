@@ -659,6 +659,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 66
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "eliel",
+			"last_name": "Rodrigues ",
+			"celphone": "61994131904",
+			"email": "elielrodriguessilva123@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 67
 		}
 	]
 }
