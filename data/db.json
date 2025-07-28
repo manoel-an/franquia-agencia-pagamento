@@ -679,6 +679,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 68
+		},
+		{
+			"data_registratation": "27/07/2025",
+			"first_name": "Marcus Vinicius dos",
+			"last_name": "Santos São Paulo",
+			"celphone": "71999508001",
+			"email": "marcusanitau@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 69
 		}
 	]
 }
