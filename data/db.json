@@ -689,6 +689,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 69
+		},
+		{
+			"data_registratation": "28/07/2025",
+			"first_name": "Bruna",
+			"last_name": "Honorato",
+			"celphone": "14998396144",
+			"email": "bruunahonoorato31508@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 70
 		}
 	]
 }
