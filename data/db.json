@@ -749,6 +749,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 75
+		},
+		{
+			"data_registratation": "29/07/2025",
+			"first_name": "Adriano Lima ",
+			"last_name": "Silva ",
+			"celphone": "85992293399",
+			"email": "adrianolima08122412@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 76
 		}
 	]
 }
