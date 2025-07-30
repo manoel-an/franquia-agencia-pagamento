@@ -829,6 +829,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 83
+		},
+		{
+			"data_registratation": "30/07/2025",
+			"first_name": "Ezequiel",
+			"last_name": "Cavalcante",
+			"celphone": "62981730671",
+			"email": "ezequielcavalcante2007@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 84
 		}
 	]
 }
