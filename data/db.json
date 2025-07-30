@@ -809,6 +809,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 81
+		},
+		{
+			"data_registratation": "30/07/2025",
+			"first_name": "Diego Pascoal ",
+			"last_name": "Dos Santos ",
+			"celphone": "73999104777",
+			"email": "dotsportsltda@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 82
 		}
 	]
 }
