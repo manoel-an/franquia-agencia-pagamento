@@ -799,6 +799,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 80
+		},
+		{
+			"data_registratation": "29/07/2025",
+			"first_name": "Marciel",
+			"last_name": "Aguiar",
+			"celphone": "68992361193",
+			"email": "marciel.aguiar2021@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 81
 		}
 	]
 }
