@@ -779,6 +779,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 78
+		},
+		{
+			"data_registratation": "29/07/2025",
+			"first_name": "Franciele",
+			"last_name": "Aparecida",
+			"celphone": "42984926563",
+			"email": "franhabitzreuter@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 79
 		}
 	]
 }
