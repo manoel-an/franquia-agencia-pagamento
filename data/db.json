@@ -839,6 +839,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 84
+		},
+		{
+			"data_registratation": "30/07/2025",
+			"first_name": "Kawe",
+			"last_name": "Emanuel de Freitas",
+			"celphone": "84999416305",
+			"email": "kaweemanueldefreitas@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 85
 		}
 	]
 }
