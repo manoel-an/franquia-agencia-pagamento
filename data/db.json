@@ -849,6 +849,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 85
+		},
+		{
+			"data_registratation": "31/07/2025",
+			"first_name": "Gean ",
+			"last_name": "Gonçalves ",
+			"celphone": "66996998950",
+			"email": "geanjuliano25991@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 86
 		}
 	]
 }
