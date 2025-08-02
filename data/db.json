@@ -949,6 +949,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 95
+		},
+		{
+			"data_registratation": "01/08/2025",
+			"first_name": "Regina",
+			"last_name": "Araújo",
+			"celphone": "83996618403",
+			"email": "regina.santos129@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 96
 		}
 	]
 }
