@@ -959,6 +959,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 96
+		},
+		{
+			"data_registratation": "01/08/2025",
+			"first_name": "Elias",
+			"last_name": "Wellington",
+			"celphone": "82993479649",
+			"email": "mozzapizzaria.sandubaria@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 97
 		}
 	]
 }
