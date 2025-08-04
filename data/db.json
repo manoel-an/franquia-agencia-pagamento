@@ -1049,6 +1049,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 105
+		},
+		{
+			"data_registratation": "04/08/2025",
+			"first_name": "Rafa",
+			"last_name": "Santos",
+			"celphone": "11992007546",
+			"email": "rafaelrodrigog12@hotmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 106
 		}
 	]
 }
