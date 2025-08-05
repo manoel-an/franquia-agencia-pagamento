@@ -1069,6 +1069,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 107
+		},
+		{
+			"data_registratation": "05/08/2025",
+			"first_name": "Daniel",
+			"last_name": "Cândido Camargos",
+			"celphone": "62982348583",
+			"email": "camargosdaniel757@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 108
 		}
 	]
 }
