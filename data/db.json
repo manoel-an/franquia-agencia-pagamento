@@ -1049,6 +1049,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 105
+		},
+		{
+			"data_registratation": "05/08/2025",
+			"first_name": "Herica",
+			"last_name": "Rempto",
+			"celphone": "24993038086",
+			"email": "hericarempto@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 106
 		}
 	]
 }
