@@ -1059,6 +1059,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 106
+		},
+		{
+			"data_registratation": "05/08/2025",
+			"first_name": "Lara Eduarda",
+			"last_name": "Araújo Fernandes ",
+			"celphone": "31997825195",
+			"email": "laraeduarda687@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 107
 		}
 	]
 }
