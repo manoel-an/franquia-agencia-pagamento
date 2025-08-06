@@ -1189,6 +1189,16 @@
 			"accept_meeting": true,
 			"payment": false,
 			"id": 119
+		},
+		{
+			"data_registratation": "06/08/2025",
+			"first_name": "Israelee ",
+			"last_name": "De Souza Barros",
+			"celphone": "11969178053",
+			"email": "israelee.barros@gmail.com",
+			"accept_meeting": true,
+			"payment": false,
+			"id": 120
 		}
 	]
 }
