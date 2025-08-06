@@ -29,6 +29,7 @@ import { Footer2Component } from './footer2/footer2.component';
 import { NgMapsGoogleModule } from '@ng-maps/google';
 import { NgMapsCoreModule } from '@ng-maps/core';
 import { GithubService } from './service/github-service';
+import { MoreComponent } from './more/more.component';
 
 
 
@@ -38,6 +39,7 @@ import { GithubService } from './service/github-service';
       MainComponent,
       HomeComponent,
       ContactComponent,
+      MoreComponent,
       HeaderComponent,
       MenuComponent,
       FeaturesComponent,

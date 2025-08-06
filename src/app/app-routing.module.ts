@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { SupportComponent } from './support/support.component';
 import { ThankYouComponent } from './thankYou/thankYou.component';
 import { FacebookPixelGuard } from './guards/facebook-pixel.guard';
+import { MoreComponent } from './more/more.component';
+import { QualifiedComponent } from './qualified/qualified.component';
 
 export const AppRoutes: Routes = [{
    path: '',
@@ -22,20 +24,33 @@ export const AppRoutes: Routes = [{
       {
          path: 'home',
          component: HomeComponent
-      }, {
+      }, 
+      {
          path: 'seja-um-franqueado',
-         component: ContactComponent,
+         component: ContactComponent
+      }, 
+      {
+         path: 'qualidade-franqueado',
+         component: MoreComponent,
          canActivate: [FacebookPixelGuard]
-      }, {
+      }, 
+      {
          path: 'parcele-seu-boleto',
          component: FeaturesComponent
-      }, {
+      }, 
+      {
          path: 'parceiro-comercial',
          component: AboutComponent
-      }, {
+      }, 
+      {
          path: 'obrigado',
          component: ThankYouComponent
-      }, {
+      }, 
+      {
+         path: 'qualified',
+         component: QualifiedComponent
+      },       
+      {
          path: 'saiba-mais',
          component: SupportComponent
       },

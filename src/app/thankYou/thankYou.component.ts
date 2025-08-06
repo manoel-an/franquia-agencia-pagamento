@@ -51,7 +51,7 @@ export class ThankYouComponent implements OnInit {
 
       sha = file.sha;
 
-      const dbJson = {leads: content};
+      const dbJson = { leads: content };
 
       const str = JSON.stringify(dbJson, null, '\t');
 

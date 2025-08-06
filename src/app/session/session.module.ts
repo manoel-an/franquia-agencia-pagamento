@@ -8,6 +8,7 @@ import { WidgetsModule } from '../widgets/widgets.module';
 import { ThankYouComponent } from '../thankYou/thankYou.component';
 import { MaintenanceComponent } from './maintenance/maintenance.component';
 import { NotFoundComponent } from './notFound/notFound.component';
+import { QualifiedComponent } from '../qualified/qualified.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { NotFoundComponent } from './notFound/notFound.component';
   ],
   declarations: [
 	  ThankYouComponent,
+    QualifiedComponent,
 	  MaintenanceComponent,
 	  NotFoundComponent,
   ]

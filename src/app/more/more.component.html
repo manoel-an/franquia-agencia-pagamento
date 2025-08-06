@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 wow fadeIn animated" data-wow-duration="2s" data-wow-delay="3s">
+        <div class="section-title-wrapper mb-5">
+            <div class="border-0 border-rad p-4 card-shadow">
+                <div class="section-title-wrapper">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-10 mx-auto text-center">
+                            <h5> Seleção para novos franqueados. </h5>
+                            <p style="text-align: justify; text-indent: 40px; font-weight: bold;" class="mb-0">
+                                Segue abaixo uma apresentação sucinta e objetiva da franquia de pagamentos de boletos.
+                                Clique no play e assista até o fim, é um material esclarecedor, após sua visualização
+                                será
+                                apresentada as opções de participação do processo de seleção. São cerca de 9 minutos que
+                                explica exatamente tudo que você precisa saber para ganhar dinheiro pagando boletos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 mx-auto text-center">
+                        <img [class.none]="loadScreen" class="card-img img-fluid border-rad"
+                            src="assets/img/apresentacao.png" alt="Card image">
+                        <div [class.none]="loadScreen" class="card-img-overlay pos-center text-center border-rad">
+                            <div class="center-holder">
+                                <a href="javascript:void(0);" class="play-button" (click)="carregarVideo()">
+                                    <i class="play-button">
+                                        <span class="btn-text"><span>Play</span></span>
+                                        <span class="btn-icon"><i class="fa fa-play"></i></span>
+                                    </i>
+                                </a>
+                            </div>
+                        </div>
+                        <video *ngIf="loadScreen" width="100%" (ended)="apresentarOpcoesSelecao()" autoplay>
+                            <source src="assets/video/app.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div [class.none]="!finishScreen" class="align form-row">
+                        <div class="form-group col-12 col-md-6 col-lg-6 col-xl-6 mb-6">
+                            <div class="sform-group">
+                                <a style="font-size: 15px;" href="javascript:void(0);" (click)="redirecionarLead(true)"
+                                    class="btn btn-outline-primary btn-sm">
+                                    Quero participar da seleção
+                                </a>
+                            </div>
+                        </div>
+                        <div class="form-group col-12 col-md-6 col-lg-6 col-xl-6 mb-6">
+                            <div class="sform-group">
+                                <a style="font-size: 15px;" href="javascript:void(0);" (click)="redirecionarLead(false)"
+                                    class="btn btn-outline-warning btn-sm">
+                                    Quero saber mais sobre a seleção
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
