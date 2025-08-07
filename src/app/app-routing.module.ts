@@ -24,32 +24,33 @@ export const AppRoutes: Routes = [{
       {
          path: 'home',
          component: HomeComponent
-      }, 
+      },
       {
          path: 'seja-um-franqueado',
          component: ContactComponent
-      }, 
+      },
       {
          path: 'qualidade-franqueado',
          component: MoreComponent,
          canActivate: [FacebookPixelGuard]
-      }, 
+      },
       {
          path: 'parcele-seu-boleto',
          component: FeaturesComponent
-      }, 
+      },
       {
          path: 'parceiro-comercial',
          component: AboutComponent
-      }, 
+      },
       {
          path: 'obrigado',
-         component: ThankYouComponent
-      }, 
+         component: ThankYouComponent,
+         canActivate: [FacebookPixelGuard]
+      },
       {
          path: 'qualified',
          component: QualifiedComponent
-      },       
+      },
       {
          path: 'saiba-mais',
          component: SupportComponent
