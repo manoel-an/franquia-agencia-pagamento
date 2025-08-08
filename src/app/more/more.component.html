@@ -30,7 +30,7 @@
                                 </a>
                             </div>
                         </div>
-                        <video *ngIf="loadScreen" width="100%" (ended)="apresentarOpcoesSelecao()" autoplay>
+                        <video [class.none]="!loadScreen" width="100%;" (ended)="apresentarOpcoesSelecao()" #videoPlayer>
                             <source src="assets/video/app.mp4" type="video/mp4">
                         </video>
                     </div>

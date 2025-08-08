@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { PageTitleService } from '../core/page-title/page-title.service';
 import * as moment from 'moment';
 import { ChkService } from '../service/chk.service';
@@ -27,6 +27,8 @@ export class MoreComponent implements OnInit, OnDestroy {
 
     id: any;
 
+    @ViewChild('videoPlayer') videoplayer: ElementRef;
+
     constructor(private pageTitleService: PageTitleService, private route: ActivatedRoute, private viewportScroller: ViewportScroller, private router: Router, private service: ChkService) {
 
         /* Page title */
@@ -52,6 +54,12 @@ export class MoreComponent implements OnInit, OnDestroy {
     carregarVideo() {
 
         this.loadScreen = true;
+
+        setTimeout(() => {
+            this.videoplayer.nativeElement.play();
+
+        }, 1000);
+
 
     }
 
